@@ -1,0 +1,7 @@
+
+.listaGrupo{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}

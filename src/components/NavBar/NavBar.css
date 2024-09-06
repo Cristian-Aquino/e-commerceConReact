@@ -1,0 +1,14 @@
+
+.navBar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(219, 167, 22);
+}
+
+.inicio{
+    padding: 15px;
+}
+.categorias{
+    padding: 50px;
+    
+}
