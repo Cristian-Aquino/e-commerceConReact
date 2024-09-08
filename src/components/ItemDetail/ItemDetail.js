@@ -1,7 +1,9 @@
 
+import './ItemDetail.css'
+
 const ItemDetail = ({id, nombre, img, categoria, descripcion, precio, stock}) => {
     return(
-        <article>
+        <article className="articulo">
             <header className='Header'>
                 <h2 className="itemHeader">
                    {nombre} 
@@ -23,7 +25,7 @@ const ItemDetail = ({id, nombre, img, categoria, descripcion, precio, stock}) =>
                 
             </section>
             <footer className="itemFooter">
-                <button className="option">Ver detalles</button>
+                <button className="detalle">Ver detalles</button>
             </footer>
         </article>
     )

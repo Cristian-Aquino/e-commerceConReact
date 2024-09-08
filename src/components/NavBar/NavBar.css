@@ -1,14 +1,34 @@
 
 .navBar{
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: rgb(219, 167, 22);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 
 .inicio{
-    padding: 15px;
+    display: inline-block;
+    background:bisque;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
 }
-.categorias{
-    padding: 50px;
-    
+
+.categoria{
+    display: inline-block;
+    background:bisque;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.categoria:hover{
+    background-color:aquamarine;
+}
+
+.titulo{
 }

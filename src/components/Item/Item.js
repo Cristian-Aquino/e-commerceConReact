@@ -3,7 +3,7 @@ import './Item.css'
 
 const Item = ({id, nombre, img, precio, stock}) => {
     return(
-        <article>
+        <article className="articulo">
             <header className='Header'>
                 <h2 className="itemHeader">
                    {nombre} 
@@ -21,7 +21,7 @@ const Item = ({id, nombre, img, precio, stock}) => {
                 </p>
             </section>
             <footer className="itemFooter">
-                <Link to={`/item/${id}`} className="option">Ver detalles</Link>
+                <Link to={`/item/${id}`} className="detalles">Ver detalles</Link>
             </footer>
         </article>
     )

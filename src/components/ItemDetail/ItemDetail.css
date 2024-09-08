@@ -1,6 +1,4 @@
-
 .articulo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 250px;
     height: 500px;
     margin: 15px;
@@ -22,11 +20,10 @@
     padding-left: 15px;
 }
 
-.detalles{
+.detalle{
     background-color: aquamarine; 
     padding: 10px 20px;
     text-decoration: none;
-    margin-left: 55px;
+    margin-left: 60px;
     border-radius: 10px;
-    border: 2px solid black;
 }

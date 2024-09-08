@@ -1,7 +1,7 @@
 
 .listaGrupo{
-    display: grid;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
