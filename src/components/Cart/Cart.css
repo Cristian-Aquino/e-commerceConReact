@@ -1,0 +1,35 @@
+
+.bodyCarrito{
+    margin-left: 25px;
+}
+
+.contenedorCarrito{
+    display: ruby;
+}
+
+.detalleCarrito{
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px; /* Ancho del formulario */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Opcional: borde para el formulario */
+    background-color: #f9f9f9; /* Opcional: color de fondo */
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.detalleAcciones{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aviso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 20px; /* Espaciado interno */
+    
+}
