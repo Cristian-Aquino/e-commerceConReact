@@ -1,0 +1,28 @@
+.Contador{
+    justify-content: center;
+    align-items: center;
+}
+
+.Controles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Boton{
+    background-color: aquamarine; 
+    padding: 5px 7px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    border: 2px solid black;
+}
+
+.AgregarCarrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

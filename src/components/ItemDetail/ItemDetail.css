@@ -1,8 +1,6 @@
-
 .articulo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 250px;
-    height: 500px;
+    height: 600px;
     margin: 15px;
     background-color: rgb(219, 167, 22);
 }
@@ -22,11 +20,19 @@
     padding-left: 15px;
 }
 
-.detalles{
+.detalle{
     background-color: aquamarine; 
     padding: 10px 20px;
     text-decoration: none;
-    margin-left: 55px;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+.Option{
+    background-color: aquamarine; 
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 60px;
     border-radius: 10px;
     border: 2px solid black;
     color: black;
